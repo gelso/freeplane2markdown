@@ -12,5 +12,5 @@ Other markdown features (e.g. enphasized text, lists, links) are not managed and
   `-i INPUT                         ".mm" mindmaps/freeplane file.`  
 
 
-Notes: save the entire Freeplane map as plain text in the input file. To do it, you can easily select all nodes with Ctrl+A, and then click Ctrl+Shift+P to convert all the nodes in plain text. Finally, save the file.
+Note: save the entire Freeplane map as plain text in the input file. To do it, you can easily select all nodes with Ctrl+A, and then click Ctrl+Shift+P to convert all the nodes in plain text. Finally, save the file.
 

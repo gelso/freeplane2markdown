@@ -14,4 +14,3 @@ Other markdown features (e.g. enphasized text, lists, links) are not managed and
 
 Note: in Freeplane, save the entire map as plain text (Alt+Shift+P) prior to use the script.
 
-[Freeplane map](/home/andrea/opt/freeplane2markdown/1.png)

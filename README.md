@@ -6,7 +6,7 @@ Other markdown features (e.g. enphasized text, lists, links) are not managed and
   Usage:  
   `ruby freeplane2markdown.rb -i input_file`  
   Examples:  
-  `ruby freeplane2markdown.rb -i input_file > markdown_file.mkd`  
+  `ruby freeplane2markdown.rb -i input_file > markdown_file.md`  
   `ruby freeplane2markdown.rb -i input_file | pandoc -o final.odt (pandoc must be installed first)`  
   Parameters:  
   `-i INPUT                         ".mm" mindmaps/freeplane file.`  

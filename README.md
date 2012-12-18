@@ -12,5 +12,5 @@ Other markdown features (e.g. enphasized text, lists, links) are not managed and
   `-i INPUT                         ".mm" mindmaps/freeplane file.`  
 
 
-Notes: save the Freeplane map as plain text (Alt+Shift+P).
+Notes: save the Freeplane map as plain text (Alt+Shift+P) in the input file.
 

@@ -16,12 +16,31 @@ def print_image_from(node_name)
   puts "![" + node_name.attributes["TEXT"] + "](" + node_name.elements["hook"].attributes["URI"].split(":")[1] + ")"
 end
 
+def is_a_leaf?(node_name)
+  node_name.elements["node"].nil?
+end
+
+def does_not_have_images_compatible_attributes?(node_name)
+  node_name.elements["hook"].nil?
+end
+
+def has_got_an_image?(node_name)
+  node_name.elements["hook"].attributes["URI"] =~ /png|gif|jpg|jpeg|tif|tiff/i
+end
+
+def scan_children(n_level, node_name)
+    node_name.each_element do |node_name|
+      recursively_handle_node(node_name, n_level)
+    end
+end
+
+
 def recursively_handle_node(node_name, n_level)
-  if node_name.elements["node"].nil?    
-    if node_name.elements["hook"].nil?
+  if is_a_leaf?(node_name)
+    if does_not_have_images_compatible_attributes?(node_name)
       print_normal_text_from(node_name)
     else                                
-      if node_name.elements["hook"].attributes["URI"] =~ /png|gif|jpg|jpeg|tif|tiff/i
+      if has_got_an_image?(node_name)
         print_image_from(node_name)
       else
         print_normal_text_from(node_name)
@@ -29,9 +48,7 @@ def recursively_handle_node(node_name, n_level)
     end
   else
     print_header_of(n_level, node_name); n_level += 1
-    node_name.each_element do |node_name|
-      recursively_handle_node(node_name, n_level)
-    end
+    scan_children(n_level, node_name)
   end
 end
 

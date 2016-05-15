@@ -1,4 +1,7 @@
--- A new script, freeplane_2_markdown, is available, while this one, freeplane2markdown, is not anymore mantained. Thank you. --
+```
+A new script, freeplane_2_markdown_py, is available, 
+while this one, freeplane2markdown, is not anymore mantained. Thank you.
+```
 
 **freeplane2markdown.rb**: this ruby script translates a freeplane/freemind tree-like structure, read from a .mm file, in a markdown's formatted document having the right hierarchical role of the headers.
 Simply put your chapter-paragraph names into freeplane branches, and text into their leaves; the script will convert every branches to the appropriate headers (i.e. putting the right number of "#").

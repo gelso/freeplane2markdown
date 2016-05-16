@@ -1,5 +1,5 @@
 ```
-A new script, freeplane_2_markdown_py, is available, 
+A new script, freeplane_2_markdown_py, is available here https://github.com/gelso/freeplane_2_markdown_py, 
 while this one, freeplane2markdown, is not anymore mantained. Thank you.
 ```
 

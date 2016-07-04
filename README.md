@@ -1,5 +1,5 @@
 
-This script is not anymore mantained, I'm sorry.
+***This script is not anymore mantained.***
 
 
 **freeplane2markdown.rb**: this ruby script translates a freeplane/freemind tree-like structure, read from a .mm file, in a markdown's formatted document having the right hierarchical role of the headers.

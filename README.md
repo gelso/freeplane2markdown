@@ -1,6 +1,5 @@
 
-A new script, freeplane_2_markdown_py, is available here https://github.com/gelso/freeplane_2_markdown_py, 
-while this one, freeplane2markdown, is not anymore mantained. Thank you.
+This script is not anymore mantained, I'm sorry.
 
 
 **freeplane2markdown.rb**: this ruby script translates a freeplane/freemind tree-like structure, read from a .mm file, in a markdown's formatted document having the right hierarchical role of the headers.
